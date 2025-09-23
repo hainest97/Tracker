@@ -1,0 +1,20 @@
+<div class="flex justify-center items-center">
+  <div class="border-black rounded-2xl bg-gray-700 p-5 m-5 w-96">
+    <h3 class="text-xl text-center font-bold text-white pb-2">Add Student</h3>
+    <form [formGroup]="addStudentForm" (submit)="submitApplication()">
+      <label class="font-medium text-gray-300" for="first-name">First name:</label><br>
+      <input class="outline outline-gray-400 rounded-sm p-1 my-1 w-full text-white hover:outline-2 hover:outline-white focus:outline-2 focus:outline-white" type="text" id="firstName" formControlName="firstName"><br>
+      <label class="font-medium text-gray-300" for="last-name">Last name:</label><br>
+      <input class="outline outline-gray-400 rounded-sm p-1 my-1 w-full text-white hover:outline-2 hover:outline-white focus:outline-2 focus:outline-white" type="text" id="lastName" formControlName="lastName"><br>
+      <label class="font-medium text-gray-300" for="major">Major:</label><br>
+      <input class="outline outline-gray-400 rounded-sm p-1 my-1 w-full text-white hover:outline-2 hover:outline-white focus:outline-2 focus:outline-white" type="text" id="major" formControlName="major"><br>
+      <label class="font-medium text-gray-300" for="date-of-birth">Date of Birth:</label><br>
+      <input type="date" class="outline outline-gray-400 rounded-sm p-1 my-1 w-full text-white hover:outline-2 hover:outline-white focus:outline-2 focus:outline-white" id="dob" formControlName="dob"><br>
+      <div class="flex justify-center my-2 gap-0.5">
+        <input class="border-2 border-black rounded-sm bg-blue-800 text-white p-2 hover:scale-105 hover:shadow-lg focus:scale-100" type="submit" value="Submit">
+        <input class="border-2 border-black rounded-sm bg-gray-400 text-black p-2 hover:scale-105 hover:shadow-lg focus:scale-100" type="submit" value="Cancel">
+      </div>
+    </form>
+  </div>
+
+</div>

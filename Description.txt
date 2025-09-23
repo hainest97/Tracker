@@ -1,0 +1,3 @@
+Tracker App
+
+This app is in essence intended to help advisors keep track of their students to help them most efficiently support them. It will allow them to see overall demographic or other statistical information about the student, but they can also assign notes to the student in the form of interventions, as they assign them during their advising sessions. The user of this app will be a advisor. The entities I will use are users (advisors), students, and interventions. The user will be able to sign up, login, view/add/edit students, and view/add/edit interventions to the student.
